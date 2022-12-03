@@ -47,7 +47,7 @@ public class StudentService {
     }
 
     public void servDeleteAllTeachers(){
-         studentRepository.repoGetAllStudents();
+         studentRepository.repoDeleteAllTeachers();
     }
 
     public Student servGetStudentsByName(String studentName){
